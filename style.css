@@ -9,18 +9,40 @@ body{
     height: 124px;
     border: 1px solid red;
 }
-
+.logo{
+   max-width: 100px;
+}
+.logo img{
+    max-width: 100%;
+}
 .header-box{
     border: 1px solid blue;
     height: 100%;
     display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 .main{
 
 
 }
+
+
+
 footer{
-   
+   height: 156px;
+    border: 1px solid red;
+}
+.footer-box{
+    border: 1px solid blue;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer-nav{
+    flex-grow: 1;
 }
 .container{
     height: 100%;
